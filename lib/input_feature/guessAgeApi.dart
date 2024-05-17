@@ -1,11 +1,12 @@
 
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
 
 class GuessAgeApi {
-  final String guessAgeAPIURL = 'https://api.agify.io/?name=';
+  final String guessAgeAPIURL = 'https://api.agify.io?name=';
 
   Future<int> guessAge({required String name}) async {
     String APIURL = guessAgeAPIURL + name;

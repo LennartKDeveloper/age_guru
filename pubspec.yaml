@@ -37,6 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   json_annotation: ^4.9.0
   http: any
+  gap: ^3.0.1
+  flutter_bloc: ^8.1.5
+  flutter_animate: ^4.5.0
+  count_number: ^0.3.71+1
 
 
 dev_dependencies:
@@ -60,6 +64,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets: 
+  - lib/input_feature/assets/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:age_guru/Eingabe%20Feature/homepage.dart';
+import 'package:age_guru/input_feature/homepage.dart';
 
 void main() {
   runApp(const MyApp());
