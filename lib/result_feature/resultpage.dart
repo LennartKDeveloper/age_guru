@@ -139,20 +139,23 @@ class _ResultPageState extends State<ResultPage> {
                       
                       const Gap(50),
                   
-                      Container(
-                        width: 150,
-                        height: 40,
-                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(6),
-                                          color: Colors.grey.shade300,
-                                          boxShadow: myBoxShadow,),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                             Icon(Icons.restart_alt_rounded, color: Theme.of(context).primaryColor,),
-                            Gap(10),
-                             Text("Retry", style: TextStyle(fontWeight: FontWeight.bold, color: Theme.of(context).primaryColor, fontSize: 17, letterSpacing: 2),)
-                          ],
+                      GestureDetector(
+                        onTap: () => Navigator.pop(context),
+                        child: Container(
+                          width: 150,
+                          height: 40,
+                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(6),
+                                            color: Colors.grey.shade300,
+                                            boxShadow: myBoxShadow,),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                               Icon(Icons.restart_alt_rounded, color: Theme.of(context).primaryColor,),
+                              Gap(10),
+                               Text("Retry", style: TextStyle(fontWeight: FontWeight.bold, color: Theme.of(context).primaryColor, fontSize: 17, letterSpacing: 2),)
+                            ],
+                          ),
                         ),
                       ),
 
