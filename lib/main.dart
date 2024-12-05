@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.deepPurple,
         scaffoldBackgroundColor: Colors.grey.shade50,
       ),
-      home: const HomePage(title: 'Age Guru'),
+      home: const HomePage(title: 'Age Vogel'),
     );
   }
 }
-
